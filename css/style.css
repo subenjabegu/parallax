@@ -1,0 +1,167 @@
+p {
+  color: #edfe3e;
+  font-size: 16px;
+  line-height: 19pt;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+/*----------------------------
+Less Variables
+-----------------------------*/
+.block {
+  padding: 90px 0;
+}
+/*----------------------------
+Section
+-----------------------------*/
+.btn-theme {
+  border: 2px solid #3f879e;
+  color: #3f879e;
+  background-color: transparent;
+  padding: 8px 18px;
+}
+.btn-theme:hover {
+  background-color: #edfe3e;
+  color: #ffffff;
+  -webkit-transition: .43s;
+  -moz-transition: .43s ;
+  -ms-transition: .43s ;
+  -o-transition: .43s ;
+  transition: .43s ;
+}
+/*--========================================
+Block
+========================================--*/
+.parent {
+  background: url("../img/bird-bg.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.parent .backsect {
+  background: url("../img/back-bird.png") no-repeat top left;
+  height: 298px;
+  left: 50%;
+  margin-left: -480px;
+  position: absolute;
+  width: 960px;
+}
+.parent .middlesect {
+  background: url("../img/black-bird-logo.svg") no-repeat center;
+  height: 100px;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.parent .foresect {
+  background: url("../img/fore-bird.png") no-repeat right bottom;
+  height: 733px;
+  left: 50%;
+  margin-left: -380px;
+  position: absolute;
+  top: 380px;
+  width: 960px;
+}
+.empty {
+  height: 999px;
+}
+/*----------------------------
+Section
+-----------------------------*/
+.show {
+  opacity: 1;
+}
+.clothes-pics .item {
+  margin-bottom: 30px;
+  opacity: 0;
+}
+.clothes-pics .show {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.periscope {
+  background: url('../img/model2.jpg') repeat fixed;
+  background-position: center 0;
+  background-size: cover;
+  border-radius: 50%;
+  height: 480px;
+  margin: auto;
+  position: relative;
+  width: 480px;
+}
+.periscope .caption-wrap {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 56px;
+  height: 480px;
+  justify-content: center;
+  position: absolute;
+  width: 480px;
+}
+.blog {
+  margin-bottom: 390px;
+}
+.blog .item-blog {
+  background: white;
+  border: 1px solid #eeeeee;
+  padding: 16px;
+  position: relative;
+}
+.blog .item1 {
+  transform: translate(200px, 20px);
+}
+.blog .item2 {
+  z-index: 2;
+}
+.blog .item3 {
+  transform: translate(-200px, 20px);
+}
+footer {
+  height: 300px;
+  position: fixed;
+  background: black;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+/*----------------------------
+Section
+-----------------------------*/
+/*----------------------------
+Section
+-----------------------------*/
+/*----------------------------
+Section
+-----------------------------*/
+/*----------------------------
+Section
+-----------------------------*/
+/*----------------------------
+Section
+-----------------------------*/
+/*----------------------------
+Section
+-----------------------------*/
